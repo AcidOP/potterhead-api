@@ -2,7 +2,7 @@ import React from 'react'
 
 function Usage() {
   return (
-    <div className='mt-5 ' >
+    <div className='mt-5' >
         <>
   {/*
   Heads up! 👋
