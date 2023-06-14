@@ -1,18 +1,18 @@
-import React from 'react'
-import Navigation from '@/app/components/navigation'
-import Usage from '@/app/components/usage'
+import React from "react";
+import Usage from "@/Components/Usage";
+import Footer from "@/Components/Footer";
 
 const Homepage = () => {
   return (
-    <div>
-      <Navigation/>
+    <div className="pt-10 h-screen">
+      <span className="md:text-4xl lg:text-5xl text-xl font-extrabold text-blue-700 flex justify-center mt-3 ">
+        Welcome to the Potterhead API ⚡
+      </span>
 
-    <span className='lg:text-3xl text-xl font-semibold text-blue-500 flex justify-center mt-3 '>Welcome to PotterHead API</span>
-  
-<Usage/>
-
+      <Usage />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Homepage
+export default Homepage;
