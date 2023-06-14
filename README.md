@@ -1,34 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" id="title">Harry Potter API</h1>
 
-## Getting Started
+<p align="center"><img src="https://socialify.git.ci/AcidOP/potterhead-api/image?description=1&amp;forks=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Charlie%20Brown&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-First, run the development server:
+<p id="description">Welcome to the Harry Potter API! This API provides detailed information about popular characters from the beloved Harry Potter series. With our API you can access a wealth of data including character names wand types special abilities patronuses and more. We also have data about the books movies and spells too.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  
+  
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
+
+*   Get info about Harry Potter characters
+*   Get info about every spell in the franchise
+*   Data available for every book and movies of the franchise
+
+<h2>🛠️ Usage:</h2>
+
+<h3>1. No API key required</h3>
+
+<h3>2. /api/characters</h3>
+
+```
+Every important character
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>3. /api/characters/:character</h3>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+An individual character detail
+(eg) /api/characters/severus snape
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+<h3>4. /api/houses</h3>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+All four houses
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h3>5. /api/houses/:house</h3>
 
-## Deploy on Vercel
+```
+All students who belong(ed) to that house
+(eg) /api/houses/slytherin
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h3>6. /api/spells</h3>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+Almost every used spell in the franchise
+```
+
+<h3>7. /api/spells/:spell</h3>
+
+```
+An individual spell
+(eg) /api/spells/avada kedavra
+```
+
+<h3>8. /api/movies</h3>
+
+```
+Data about all the 8 movies
+```
+
+<h3>9. /api/movies/:serial_number</h3>
+
+```
+Individual movie detail
+(eg) /api/books/3 -> Harry Potter and the Prisoner of Azkaban
+```
+
+<h3>10. /api/books</h3>
+
+```
+Data about all the 7 books
+```
+
+<h3>11. /api/books/:serial_number</h3>
+
+```
+Individual book detail
+(eg) /api/books/3 -> Harry Potter and the Prisoner of Azkaban
+```
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   NextJS
+*   Tailwind CSS
