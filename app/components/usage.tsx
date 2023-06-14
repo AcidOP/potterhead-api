@@ -2,8 +2,13 @@ import React from 'react'
 
 function Usage() {
   return (
-    <div className='mt-10' >
+    <div className='mt-5 ' >
         <>
+  {/*
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+*/}
 
 <span className='text-xl font-bold flex justify-center text-green-400 mb-2'>How to use this API:</span>
 
@@ -86,7 +91,7 @@ function Usage() {
 
         <tr>
           <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-           All Spells
+           Spells
           </td>
           <td className="whitespace-nowrap px-4 py-2 text-blue-700">
             <a href="/api/spells">
@@ -112,7 +117,7 @@ function Usage() {
 
         <tr>
           <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-          All Movies
+           Movies
           </td>
           <td className="whitespace-nowrap px-4 py-2 text-blue-700">
             <a href="/api/movies">
@@ -140,7 +145,7 @@ function Usage() {
 
         <tr>
           <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-          All Books
+           Books
           </td>
           <td className="whitespace-nowrap px-4 py-2 text-blue-700">
             <a href="/api/books">
