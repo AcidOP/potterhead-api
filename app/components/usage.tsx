@@ -4,11 +4,6 @@ function Usage() {
   return (
     <div className='mt-10' >
         <>
-  {/*
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-*/}
 
 <span className='text-xl font-bold flex justify-center text-green-400 mb-2'>How to use this API:</span>
 
@@ -33,7 +28,7 @@ function Usage() {
       <tbody className="divide-y divide-gray-200">
         <tr>
           <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-            Characters
+           All Characters
           </td>
           <td className="whitespace-nowrap px-4 py-2 text-blue-700">
             <a href='/api/characters'>
@@ -65,7 +60,7 @@ function Usage() {
         </tr>
         <tr>
           <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-           Houses
+           All Houses
           </td>
           <td className="whitespace-nowrap px-4 py-2 text-blue-700">
             <a href="/api/houses">
@@ -91,7 +86,7 @@ function Usage() {
 
         <tr>
           <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-           Spells
+           All Spells
           </td>
           <td className="whitespace-nowrap px-4 py-2 text-blue-700">
             <a href="/api/spells">
@@ -117,7 +112,7 @@ function Usage() {
 
         <tr>
           <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-           Movies
+          All Movies
           </td>
           <td className="whitespace-nowrap px-4 py-2 text-blue-700">
             <a href="/api/movies">
@@ -145,7 +140,7 @@ function Usage() {
 
         <tr>
           <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-           Books
+          All Books
           </td>
           <td className="whitespace-nowrap px-4 py-2 text-blue-700">
             <a href="/api/books">
