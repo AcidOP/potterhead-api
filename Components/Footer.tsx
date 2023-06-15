@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="flex lg:fixed w-screen bg-inherit bottom-0">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+    <footer className="flex w-full bg-inherit ">
+      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="text-teal-600">
             Made with ❤️ by{" "}

@@ -1,27 +1,80 @@
+// import React from "react";
+
+// function Usage() {
+//   return (
+//     <div className="mt-5 ">
+
+// <span className="text-xl font-bold flex justify-center text-blue-600 mb-1">
+//         How to use this API:
+//       </span>
+
+//       <div className="w-fit mx-auto rounded-lg border flex items-center sm:justify-center ml-4 sm:ml-0 shadow-md border-gray-200 overflow-x-auto">
+//         <table className="w-fit divide-y divide-gray-200 bg-white text-sm">
+//           <thead className="sr-only">
+//             <tr className="bg-gray-100">
+//               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+//                 Name
+//               </th>
+//               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+//                 Route
+//               </th>
+//               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+//                 Usage
+//               </th>
+//               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+//                 Parameter
+//               </th>
+//             </tr>
+//           </thead>
+//           <tbody className="divide-y divide-gray-200">
+//               <tr>
+//                 <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+//                   All Characters
+//                 </td>
+//                 <td className="whitespace-nowrap px-4 py-2 text-blue-700">
+//                   <a href="/api/characters">/api/characters</a>
+//                 </td>
+//                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
+//                   Display all characters
+//                 </td>
+//                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">-</td>
+//               </tr>
+             
+//             </tbody>
+//           </table>
+//         </div>
+      
+//     </div>
+//   );
+// }
+
+// export default Usage;
+
+
 import React from "react";
 
 function Usage() {
   return (
-    <div className="mt-10">
-      <>
-        <span className="text-xl font-bold flex justify-center text-blue-600 mb-2">
-          How to use this API:
-        </span>
+    <div className="mt-5">
+      <span className="text-xl font-bold flex justify-center text-blue-600 mb-1">
+        How to use this API:
+      </span>
 
-        <div className="w-fit mx-auto rounded-lg border border-gray-200">
-          <table className="w-fit divide-y-2 divide-gray-200 bg-white text-sm">
-            <thead className="ltr:text-left rtl:text-right">
-              <tr>
-                <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+      <div className="mx-auto rounded-lg border flex items-center justify-center sm:justify-center ml-4 sm:ml-0 shadow-md border-gray-200 ">
+        <div className="">
+          <table className="overflow-x-auto w-fit overflow-y-auto divide-y divide-x divide-gray-200 bg-white text-sm">
+            <thead className="sr-only">
+              <tr className="bg-gray-100">
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Name
                 </th>
-                <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Route
                 </th>
-                <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Usage
                 </th>
-                <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Parameter
                 </th>
               </tr>
@@ -128,7 +181,7 @@ function Usage() {
                   Specefic movie
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-blue-700">
-                  <a href="/api/movies/1">/api/movies/1</a>
+                  <a href="/api/movies/1">/api/movies/:id</a>
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                   Info about a specefic movie
@@ -156,7 +209,7 @@ function Usage() {
                   Specefic Book
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-blue-700">
-                  <a href="/api/books/3">/api/books/3</a>
+                  <a href="/api/books/3">/api/book/:id</a>
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                   Info about specefic book
@@ -168,7 +221,7 @@ function Usage() {
             </tbody>
           </table>
         </div>
-      </>
+      </div>
     </div>
   );
 }
