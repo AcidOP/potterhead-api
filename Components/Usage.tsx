@@ -3,9 +3,9 @@ import React from "react";
 function Usage() {
   return (
     <div className="mt-6">
-      <span className="text-xl font-bold flex justify-center text-gray-600 ">
+      <span className="text-xl font-bold flex justify-center text-blue-500 ">
         
-        How to use this API:
+        Usage:
        
       </span>
 
