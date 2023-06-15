@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-200 mb-0 bottom-0 min-h-screen;
+  @apply bg-gray-100 h-screen ;
   
 }
