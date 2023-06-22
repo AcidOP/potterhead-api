@@ -42,7 +42,7 @@ function Usage() {
               </tr>
               <tr>
                 <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-                  Specefic Character
+                  specific Character
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-blue-700">
                   <a href="/api/characters/harry potter">
@@ -70,13 +70,13 @@ function Usage() {
               </tr>
               <tr>
                 <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-                  Specefic house
+                  specific house
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-blue-700">
                   <a href="/api/houses/gryffindor">/api/houses/:house</a>
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Info about a specefic house
+                  Info about a specific house
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                   Any house name
@@ -98,13 +98,13 @@ function Usage() {
 
               <tr>
                 <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-                  Specefic spell
+                  specific spell
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-blue-700">
                   <a href="/api/spells/avada kedavra">/api/spells/:spell</a>
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Info about a specefic spell
+                  Info about a specific spell
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                   Any spell name
@@ -126,13 +126,13 @@ function Usage() {
 
               <tr>
                 <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-                  Specefic movie
+                  specific movie
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-blue-700">
                   <a href="/api/movies/1">/api/movies/:id</a>
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Info about a specefic movie
+                  Info about a specific movie
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                   Any movie id from 1 to 8
@@ -154,13 +154,13 @@ function Usage() {
 
               <tr>
                 <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-                  Specefic Book
+                  specific Book
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-blue-700">
                   <a href="/api/books/3">/api/book/:id</a>
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Info about specefic book
+                  Info about specific book
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                   Any book id from 1 to 7
